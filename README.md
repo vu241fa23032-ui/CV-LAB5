@@ -24,3 +24,6 @@ Ensure you have the required Python libraries installed:
 2. **Gray Level Slicing (Without Background)**: A binary-like mask is created where pixels within the target intensity range `[r_min, r_max]` are set to 255 (white), and all other pixels are set to 0 (black).
 3. **Gray Level Slicing (With Background)**: The pixels within the target range are highlighted by setting them to 255 (white), but the remaining pixels retain their original intensity values.
 4. **Visualization**: Uses Matplotlib to display the original image along with the two different gray-level sliced outputs.
+
+#OUTPUT
+<img width="914" height="836" alt="image" src="https://github.com/user-attachments/assets/92c2470b-3c99-4727-abdc-7800a38be3c6" />
